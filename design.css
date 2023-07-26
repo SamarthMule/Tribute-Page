@@ -1,0 +1,108 @@
+*{
+    background-color: antiquewhite;
+    margin: 5px;
+    padding: 5px;
+}
+header{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: cursive;
+    text-align: center;
+    box-shadow: 0px -10px 10px rgb(36, 20, 0), 0px 1px 10px rgb(36, 20, 0);
+    border-radius: 100px;
+    background-color: rgb(221, 188, 103);
+    color: rgb(75, 54, 0);
+    text-shadow:-2px -2px #ff0000 , 2px 2px #2bff00 , -2px 2px #0400ff , 2px -2px #ff00ff;
+}
+footer{
+    border-radius: 100px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: cursive;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px -3px 10px rgb(36, 20, 0), 0px 1px 10px rgb(36, 20, 0);
+    color :rgb(122, 69, 0);
+}
+.container1{
+    border-radius: 20px;
+    display:inline-flex;
+}
+.photo{
+    width:350px ;
+    display: block;
+    box-shadow:0px -10px 10px rgb(36, 20, 0), 0px 1px 10px rgb(36, 20, 0) ;
+    border-radius: 50%;
+    background-attachment:scroll;
+}
+.info{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 50%;
+    display:block;
+    align-content: flex-end;
+    font-family: fantasy;
+    font-size: 35px;
+    text-align:left;
+    color: rgb(170, 96, 0);
+} 
+h1{
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #4d2a01;
+    text-decoration:underline 5px rgb(170, 96, 0);
+    text-align: left;
+}
+h4{
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #4d2a01;
+    text-align: left;
+}
+.container2{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(253, 222, 180);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align:left;
+    color: rgb(122, 69, 0);
+}
+@media screen and (max-width: 1024px){
+    header{
+        font-size: 30px;
+        border-radius: 30px;
+    }
+    .container1{
+        display:contents;
+    }
+    .photo{
+        width:200px ;
+        display: inline;
+    }
+    footer{
+        border-radius: 50px;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .info{
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 20px;
+        width: 100%;
+    } 
+    h1{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    .container2{
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+a:-webkit-any-link {
+    color: goldenrod;
+    cursor: pointer;
+}
